@@ -45,7 +45,7 @@
         <tr>
           <td>{{$vps->hasVps->str_vps_name??''}}</td>
           <td>{{$vps->hasVps->str_ip_address??''}}</td>
-          <td><a href="{{url('create/'.$vps->int_venda_id)}}">Visualizar</a></td>
+          <td><a href="{{url('vps/'.$vps->int_venda_id)}}">Visualizar</a></td>
         </tr>
         @endforeach
       </tbody>
