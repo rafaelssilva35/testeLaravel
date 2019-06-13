@@ -12,4 +12,4 @@
 */
 
 Route::get('/vps/{int_venda_id?}', 'CompraController@getCreate');
-Route::get('/', 'CompraController@getIndex');
+//Route::get('/', 'CompraController@getIndex');
